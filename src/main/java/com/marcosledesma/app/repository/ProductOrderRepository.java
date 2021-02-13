@@ -11,4 +11,6 @@ import org.springframework.stereotype.Repository;
 @SuppressWarnings("unused")
 @Repository
 public interface ProductOrderRepository extends JpaRepository<ProductOrder, Long> {
+    Page<ProductOrder> findAllByCustomerUserLogin(String login, Pageable
+        pageable);
 }

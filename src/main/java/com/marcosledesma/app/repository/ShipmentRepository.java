@@ -11,4 +11,7 @@ import org.springframework.stereotype.Repository;
 @SuppressWarnings("unused")
 @Repository
 public interface ShipmentRepository extends JpaRepository<Shipment, Long> {
+    Page<Shipment> findAllByInvoiceOrderCustomerUserLogin(String login, Pageable pageable);
+
+    Optional<Shipment> findOneByIdAndInvoiceOrderCustomerUserLogin(Long id, String login);
 }
