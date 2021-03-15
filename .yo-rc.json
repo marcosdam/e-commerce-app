@@ -22,7 +22,7 @@
     "serviceDiscoveryType": false,
     "buildTool": "gradle",
     "enableSwaggerCodegen": false,
-    "jwtSecretKey": "ODU1Y2EyZmYzMmU4ZDA0OTQwYTM1MGE1YWU2MDFjOTM5YWU2OGEyNDg4MjhmNDUzNWY0NzJhYTUyODhlZmZjMGEwNGQ3NTcyOTc5NjhjZTIxM2QxYmQzM2ZkOThiYjljM2Q0M2UyYjNiMDE2ZDYxOTkzODZiM2QyMWIxODM0ODY=",
+    "jwtSecretKey": "=",
     "embeddableLaunchScript": false,
     "useSass": true,
     "clientPackageManager": "npm",
